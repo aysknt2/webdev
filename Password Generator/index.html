@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./images/5373279.png">
+</head>
+<body>
+    <div class="container">
+        <h1>Generate <br><span>Random Password</span></h1>
+        <div class="display">
+            <input type="text" id="password" placeholder="Password">
+            <img src="./images/copy.png">
+        </div>
+        <!-- <p>Characters in Password :</p><br>
+        <div class="choice">
+            <button id="but1" value="6">6</button>
+            <button id="but2" value="8">8</button>
+            <button id="but3" value="12">12</button>
+            <button id="but4" value="16">16</button>
+        </div> -->
+        <br>
+        <button class="generate" onclick="generatepassword()"><img src="./images/generate.png">Generate Password</button>
+    </div>
+
+    <script src="./password.js"></script>
+</body>
+</html>
